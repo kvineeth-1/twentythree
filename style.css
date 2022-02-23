@@ -1,0 +1,40 @@
+.container{
+    height: 50vh;
+    width: 50vw;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.child1{
+    background-color: red;
+    height: 20vh;
+    width: 20vw;
+    position: absolute;
+    left: 100px;
+}
+
+.boxcontainer{
+    position: relative;
+    display: flex;
+}
+.box{
+    
+    margin: 20px;
+    padding: 20px;
+    
+}
+.box1{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(48, 8, 85);
+    color: white;
+}
+.box2{
+    background-color: rgb(161, 161, 31);
+    position: sticky;
+    top: 0;
+    color: white;
+    width: 100%;
+    
+}
